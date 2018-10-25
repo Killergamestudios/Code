@@ -4,7 +4,7 @@
 #include <SFML/Graphics.hpp>
 
 using namespace sf;
-enum State{Playing, Loading, InMenu};
+enum State{Playing, Loading, InMenu, Incutscene};
 //enum InputState {}; // needs work later
 class Engine {
 private:
